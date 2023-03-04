@@ -11,7 +11,7 @@ import NotFound from './views/NotFound';
 function App() {
   return (
     <div>
-      <BrowserRouter >
+      <BrowserRouter basename='react-router'>
         <Routes>
           <Route path="/" element={<Home/>} />      
           <Route path="/contacto" element={<Contacto/>} />
