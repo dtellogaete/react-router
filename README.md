@@ -1,8 +1,6 @@
 # React Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Existen tres views
+Existen tres views en este proyecto
 
 * Home
 * Contacto 
