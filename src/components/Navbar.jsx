@@ -13,10 +13,10 @@ export const NavbarComp = () => {
                 style={{ maxHeight: '100px' }}
                 navbarScroll
             >
-                <Nav.Link href="react-router/" className="text-light">
+                <Nav.Link href="/" className="text-light">
                 <h4>&#127968; Home</h4>
                 </Nav.Link>
-                <Nav.Link href="react-router/contacto" className="text-light">
+                <Nav.Link href="/contacto" className="text-light">
                 <h4>&#128241; Contacto</h4>
                 </Nav.Link>
             </Nav>
