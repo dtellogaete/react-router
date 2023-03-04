@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
-import {  BrowserRouter,  Route, Routes } from 'react-router-dom';
+import {  BrowserRouter,  Route, Routes, HashRouter } from 'react-router-dom';
 
 import Home from './views/Home';
 import Contacto from './views/Contacto';
@@ -11,13 +11,13 @@ import NotFound from './views/NotFound';
 function App() {
   return (
     <div>
-      <BrowserRouter >
+      <HashRouter >
         <Routes>
           <Route path="/" element={<Home/>} />      
           <Route path="/contacto" element={<Contacto/>} />
           <Route path="*" element={<NotFound />} />          
         </Routes>      
-      </BrowserRouter>    
+      </HashRouter>    
     </div>   
   );
 }
